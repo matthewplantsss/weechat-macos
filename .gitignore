@@ -1,0 +1,48 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+dist/
+out/
+
+*.db
+*.db-shm
+*.db-wal
+
+*.log
+npm-debug.log*
+
+.DS_Store
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Node.js
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+dist/
+build/
+out/
+coverage/
+*.log
+
+# Local databases and runtime data
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE files
+.vscode/
+.idea/
